@@ -1,0 +1,80 @@
+<html>
+  <head>
+  <title>Book website</title>
+  <link rel="stylesheet" href="./static/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="books.js">
+</head>
+<body> 
+<div class="banner">
+    <div class="banner-text">
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="/genre.html">
+              <div class="dropdown">
+                <button class="dropbtn">Genres
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/genre/fantasy.html">Fantasy</a>
+                  <a href="/genre/mystery.html">Mystery</a>
+                  <a href="/genre/romance.html">Romance</a>
+                  <a href="/genre/thriller.html">Thriller</a>
+                </div>
+              </div>
+            </a>
+        </li>
+          <li><a href="/about_us.html">About Us</a></li>
+          <li><a href="/contact.html">Contact</a></li>  
+          <li><a href="/signup.html">Sign up</a></li> 
+      </ul>
+  </nav>
+</div>
+    </div>
+
+<Center>
+<section id="contact" class="container">
+  <div class="row">
+    <article class="col-md-4">
+      <p class="slideanim">Call and give us your feedback</p>
+      <p class="slideanim"><span class="glyphicon glyphicon-map-marker"></span>Nairobi,Kenya</p>
+      <p class="slideanim"><span class="glyphicon glyphicon-phone"></span>Phone: +254 701234567</p>
+      <p class="slideanim"><span class="glyphicon glyphicon-envelope"></span>Email: group3@gmail.com</p>
+    </article>
+    
+    <div class="validateForm">
+    <article class="validateForm">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control slideanim" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control slideanim" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control slideanim" id="subject" name="subject" placeholder="Subject" rows="1"></textarea>
+      <br>
+      <textarea class="form-control slideanim" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <a href="index.html">send</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+</section>
+</Center>
+
+<center>
+  <div class="flex-wrapper">
+    <div class="footer">© 2021 Copyright</div>
+  </div>
+ </center>
+</body>
